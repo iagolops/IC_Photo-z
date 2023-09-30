@@ -6,15 +6,15 @@
 #                 | 
 #                 |
 # FILENAMES       V
-TrainFile        : training.DR2     # Name of training file
-TestFile         : validation.DR2      # Name of test file
-FinalFileName    : results.DR2           # Root of Final name
+TrainFile        : training     # Name of training file
+TestFile         : validation      # Name of test file
+FinalFileName    : results_new           # Root of Final name
 #------------------------------------------------------
 #     PATHS
 #------------------------------------------------------
-Path_Train       : /home/iago.dias/MLZ/mlz/test/ # Path to train file
-Path_Test        : /home/iago.dias/MLZ/mlz/test/   # Path to test file
-Path_Output      : /home/iago.dias/MLZ/mlz/test/   # Path to results
+Path_Train       : /home/iago/Plots-TPZ/iago/ml_analyses # Path to train file
+Path_Test        : /home/iago/Plots-TPZ/iago/ml_analyses   # Path to test file
+Path_Output      : /home/iago/Plots-TPZ/iago/ml_analyses   # Path to results
 #------------------------------------------------------
 #     COLUMNS AND ATTRIBUTES
 #------------------------------------------------------
@@ -33,7 +33,7 @@ PredictionClass  : Reg               # Reg/Class
 #   REDSHIFT RELATED (OR FOR CLASSIFICATION)
 #------------------------------------------------------
 MinZ             : 0.0000133             # Min redshift (class label)
-MaxZ             : 4.72197               # Max redshift (class label)
+MaxZ             : 4.68802               # Max redshift (class label)
 NzBins           : 80                # Number of bins in z range (2 for Classification), Final output is double this value
 #------------------------------------------------------
 #   COMMON FOR TPZ/SOM
