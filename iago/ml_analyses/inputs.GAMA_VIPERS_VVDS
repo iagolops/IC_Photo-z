@@ -6,9 +6,9 @@
 #                 | 
 #                 |
 # FILENAMES       V
-TrainFile        : training     # Name of training file
-TestFile         : validation      # Name of test file
-FinalFileName    : results_new           # Root of Final name
+TrainFile        : training.GAMA_VIPERS_VVDS     # Name of training file
+TestFile         : validation.GAMA_VIPERS_VVDS      # Name of test file
+FinalFileName    : results.GAMA_VIPERS_VVDS           # Root of Final name
 #------------------------------------------------------
 #     PATHS
 #------------------------------------------------------
@@ -28,13 +28,13 @@ KeyAtt           : zs                           #name of  the column to be predi
 #------------------------------------------------------
 CheckOnly        : no                # Check everything with small samples to test the codes
 PredictionMode   : TPZ               # TPZ/SOM/TPZ_C
-PredictionClass  : Reg               # Reg/Class
+PredictionClass  : Class               # Reg/Class
 #------------------------------------------------------
 #   REDSHIFT RELATED (OR FOR CLASSIFICATION)
 #------------------------------------------------------
-MinZ             : 0.0266             # Min redshift (class label)
+MinZ             : 0.000476295             # Min redshift (class label)
 MaxZ             : 1.4449               # Max redshift (class label)
-NzBins           : 80                # Number of bins in z range (2 for Classification), Final output is double this value
+NzBins           : 2                # Number of bins in z range (2 for Classification), Final output is double this value
 #------------------------------------------------------
 #   COMMON FOR TPZ/SOM
 #------------------------------------------------------
