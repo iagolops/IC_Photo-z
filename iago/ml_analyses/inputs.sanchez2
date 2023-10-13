@@ -6,9 +6,9 @@
 #                 | 
 #                 |
 # FILENAMES       V
-TrainFile        : training.sanchez     # Name of training file
-TestFile         : validation.sanchez      # Name of test file
-FinalFileName    : results.sanchez           # Root of Final name
+TrainFile        : training.sanchez2     # Name of training file
+TestFile         : validation.sanchez2      # Name of test file
+FinalFileName    : results.sanchez2           # Root of Final name
 #------------------------------------------------------
 #     PATHS
 #------------------------------------------------------
@@ -33,7 +33,7 @@ PredictionClass  : Class               # Reg/Class
 #   REDSHIFT RELATED (OR FOR CLASSIFICATION)
 #------------------------------------------------------
 MinZ             : -0.0007             # Min redshift (class label)
-MaxZ             : 6.835               # Max redshift (class label)
+MaxZ             : 6.835             # Max redshift (class label)
 NzBins           : 2                # Number of bins in z range (2 for Classification), Final output is double this value
 #------------------------------------------------------
 #   COMMON FOR TPZ/SOM

@@ -1,6 +1,6 @@
-trainfile            : training.sanchez 
-testfile             : validation.sanchez 
-finalfilename        : results.sanchez 
+trainfile            : training.sanchez2 
+testfile             : validation.sanchez2 
+finalfilename        : results.sanchez2 
 path_train           : /home/iago/Plots-TPZ/iago/ml_analyses/ 
 path_test            : /home/iago/Plots-TPZ/iago/ml_analyses/ 
 path_output          : /home/iago/Plots-TPZ/iago/ml_analyses/ 
