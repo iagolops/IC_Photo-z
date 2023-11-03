@@ -1,9 +1,9 @@
-trainfile            : training.sanchez 
-testfile             : validation.sanchez 
+trainfile            : training.sanchez.0 
+testfile             : validation.sanchez.0 
 finalfilename        : results.sanchez 
-path_train           : /home/iago/Plots-TPZ/iago/ml_analyses/ 
-path_test            : /home/iago/Plots-TPZ/iago/ml_analyses/ 
-path_output          : /home/iago/Plots-TPZ/iago/ml_analyses/ 
+path_train           : /home/iago.dias/TPz_notebooks/iago/ml_analyses/samples/ 
+path_test            : /home/iago.dias/TPz_notebooks/iago/ml_analyses/samples/ 
+path_output          : /home/iago.dias/TPz_notebooks/iago/ml_analyses/samples/ 
 columns              : zs,g,r,i,z,y,g-r,r-i,i-z,z-y,eg,er,ei,ez,ey,eg-r,er-i,ei-z,ez-y 
 att                  : g,r,i,z,y,g-r,r-i,i-z,z-y 
 columns_test         : zs,g,r,i,z,y,g-r,r-i,i-z,z-y,eg,er,ei,ez,ey,eg-r,er-i,ei-z,ez-y 
