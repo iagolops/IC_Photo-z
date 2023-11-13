@@ -41,7 +41,7 @@ Folder with the TPz algorithm
 * iago/Test_plots
 Contains a replication of plots from TPz paper. 
 
-*iago/ml_analyses/samples/phot_sample_weighting_*
+* iago/ml_analyses/samples/phot_sample_weighting_
 Photometric data downloaded to weighting. Each data has the cuts used in spectroscopic associated.
 
 * iago/ml_analyses/Sanchez_data
