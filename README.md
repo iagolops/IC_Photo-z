@@ -14,6 +14,9 @@ Notebook for plotting results; you can combine more than one result and compare.
 * Sanchez_run_TPz.ipynb
 Notebook to replicate the training sample from the paper (DOI: 10.1093/mnras/stu1836), analyse results and calculate weights.
 
+* Controled_sample.ipynb
+Notebook to build and analyze a sample with VIPERS and GAMA catalogs. 
+
 ## Manual for samples folder
 The path to the folder is: /TPz_notebooks/iago/ml_analyses/samples.
 
@@ -38,5 +41,9 @@ Folder with the TPz algorithm
 * iago/Test_plots
 Contains a replication of plots from TPz paper. 
 
+*iago/ml_analyses/samples/phot_sample_weighting_*
+Photometric data downloaded to weighting. Each data has the cuts used in spectroscopic associated.
+
 * iago/ml_analyses/Sanchez_data
 Contains the data used to try to replicate Sanchez's paper results.
+
