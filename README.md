@@ -5,17 +5,20 @@ The objective of this project is to build a sample for TPz algorithm and analyze
 ## Manual for notebooks
 The main folder is /TPz_notebooks/iago/ml_analyses. Here we have some files:
 
+* Sanchez_run_TPz.ipynb
+Notebook to replicate the training sample from the paper (DOI: 10.1093/mnras/stu1836), analyse results and calculate weights.
+
+* Flexzboost.ipynb
+Notebook to execute FlexzBoost and analyse results.
+
+* Controlled_sample.ipynb
+Notebook to build and analyze a sample with VIPERS and GAMA catalogs. 
+
 * DR2-Spec_Querys.ipynb
 Notebook to build a sample using spectroscopic data from LIneA server.
 
 * Plots.ipynb
 Notebook for plotting results; you can combine more than one result and compare.
-
-* Sanchez_run_TPz.ipynb
-Notebook to replicate the training sample from the paper (DOI: 10.1093/mnras/stu1836), analyse results and calculate weights.
-
-* Controled_sample.ipynb
-Notebook to build and analyze a sample with VIPERS and GAMA catalogs. 
 
 ## Manual for samples folder
 The path to the folder is: /TPz_notebooks/iago/ml_analyses/samples.
