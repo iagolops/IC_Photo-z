@@ -12,9 +12,9 @@ FinalFileName    : results.control_GAMA           # Root of Final name
 #------------------------------------------------------
 #     PATHS
 #------------------------------------------------------
-Path_Train       : /home/iago.dias/TPz_notebooks/iago/ml_analyses/samples # Path to train file
-Path_Test        : /home/iago.dias/TPz_notebooks/iago/ml_analyses/samples   # Path to test file
-Path_Output      : /home/iago.dias/TPz_notebooks/iago/ml_analyses/samples  # Path to results
+Path_Train       : /home/iago.dias/IC_Photo-z/Iago/samples # Path to train file
+Path_Test        : /home/iago.dias/IC_Photo-z/Iago/samples   # Path to test file
+Path_Output      : /home/iago.dias/IC_Photo-z/Iago/  # Path to results
 #------------------------------------------------------
 #     COLUMNS AND ATTRIBUTES
 #------------------------------------------------------

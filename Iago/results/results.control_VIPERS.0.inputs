@@ -1,9 +1,9 @@
 trainfile            : training.control_VIPERS 
 testfile             : validation.control_VIPERS 
 finalfilename        : results.control_VIPERS 
-path_train           : /home/iago.dias/TPz_notebooks/iago/ml_analyses/samples/ 
-path_test            : /home/iago.dias/TPz_notebooks/iago/ml_analyses/samples/ 
-path_output          : /home/iago.dias/TPz_notebooks/iago/ml_analyses/samples/ 
+path_train           : /home/iago.dias/IC_Photo-z/Iago/samples/ 
+path_test            : /home/iago.dias/IC_Photo-z/Iago/samples/ 
+path_output          : /home/iago.dias/IC_Photo-z/Iago/results/ 
 columns              : zs,g,r,i,z,y,g-r,r-i,i-z,z-y,eg,er,ei,ez,ey,eg-r,er-i,ei-z,ez-y 
 att                  : g,r,i,z,y,g-r,r-i,i-z,z-y 
 columns_test         : zs,g,r,i,z,y,g-r,r-i,i-z,z-y,eg,er,ei,ez,ey,eg-r,er-i,ei-z,ez-y 
